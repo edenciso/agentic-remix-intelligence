@@ -1,0 +1,26 @@
+{
+  "company": "RelayForge",
+  "week_ending": "2026-02-27",
+  "prior_week_summary": [
+    {
+      "theme": "Analytics interest from advanced users",
+      "strength": 0.58,
+      "note": "Seen mostly in product feedback and one customer call."
+    },
+    {
+      "theme": "Early onboarding friction",
+      "strength": 0.62,
+      "note": "Present but mostly isolated to support tickets."
+    },
+    {
+      "theme": "Security requirements in enterprise cycle",
+      "strength": 0.49,
+      "note": "Emerging but not yet widespread."
+    },
+    {
+      "theme": "Packaging confusion",
+      "strength": 0.41,
+      "note": "Some uncertainty in sales conversations."
+    }
+  ]
+}

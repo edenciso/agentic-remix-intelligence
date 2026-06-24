@@ -1,0 +1,747 @@
+[
+  {
+    "id": "sig_001",
+    "source_type": "customer_call",
+    "date": "2026-03-02",
+    "team": "sales",
+    "account_name": "Northstar Health",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "integration",
+      "onboarding"
+    ],
+    "summary": "Prospect likes the workflow automation vision but says rollout cannot proceed without Salesforce integration.",
+    "sentiment": "mixed",
+    "urgency": 5,
+    "evidence_strength": 4,
+    "quoted_claims": [
+      "We need Salesforce integration before rollout."
+    ],
+    "metrics": {
+      "deal_size_estimate": 45000
+    },
+    "owner": "AE_01"
+  },
+  {
+    "id": "sig_002",
+    "source_type": "customer_call",
+    "date": "2026-03-02",
+    "team": "sales",
+    "account_name": "Aperture Ops",
+    "account_segment": "enterprise",
+    "region": "US",
+    "topic_tags": [
+      "security",
+      "trust",
+      "procurement"
+    ],
+    "summary": "Late-stage prospect is interested, but security review is slowing the buying process.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "quoted_claims": [
+      "We need stronger answers on data handling and model access."
+    ],
+    "metrics": {
+      "deal_size_estimate": 120000
+    },
+    "owner": "AE_02"
+  },
+  {
+    "id": "sig_003",
+    "source_type": "customer_call",
+    "date": "2026-03-02",
+    "team": "sales",
+    "account_name": "Blue Current",
+    "account_segment": "mid-market",
+    "region": "EU",
+    "topic_tags": [
+      "onboarding",
+      "configuration"
+    ],
+    "summary": "Customer sees value but worries setup is too complex for a small operations team.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 3,
+    "quoted_claims": [
+      "This looks powerful, but implementation seems heavy."
+    ],
+    "owner": "AE_03"
+  },
+  {
+    "id": "sig_004",
+    "source_type": "customer_call",
+    "date": "2026-03-02",
+    "team": "sales",
+    "account_name": "Meridian Retail",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "analytics",
+      "dashboard"
+    ],
+    "summary": "Operations lead wants more dashboard segmentation and analytics views for managers.",
+    "sentiment": "positive",
+    "urgency": 2,
+    "evidence_strength": 2,
+    "quoted_claims": [
+      "Manager-level analytics would be useful."
+    ],
+    "owner": "AE_01"
+  },
+  {
+    "id": "sig_005",
+    "source_type": "customer_call",
+    "date": "2026-03-03",
+    "team": "sales",
+    "account_name": "Cedar Lane Logistics",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "integration",
+      "salesforce",
+      "implementation"
+    ],
+    "summary": "Prospect says they cannot justify a pilot unless Salesforce sync is straightforward for their RevOps admin.",
+    "sentiment": "mixed",
+    "urgency": 5,
+    "evidence_strength": 4,
+    "quoted_claims": [
+      "If setup takes weeks, this dies internally."
+    ],
+    "metrics": {
+      "deal_size_estimate": 38000
+    },
+    "owner": "AE_04"
+  },
+  {
+    "id": "sig_006",
+    "source_type": "customer_call",
+    "date": "2026-03-03",
+    "team": "sales",
+    "account_name": "Polaris Manufacturing",
+    "account_segment": "enterprise",
+    "region": "US",
+    "topic_tags": [
+      "security",
+      "audit_logs",
+      "sso"
+    ],
+    "summary": "Enterprise buyer likes the product but asks for audit logs, SSO, and clearer admin controls before procurement review.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "quoted_claims": [
+      "Security controls are the gating item now."
+    ],
+    "metrics": {
+      "deal_size_estimate": 95000
+    },
+    "owner": "AE_02"
+  },
+  {
+    "id": "sig_007",
+    "source_type": "customer_call",
+    "date": "2026-03-03",
+    "team": "sales",
+    "account_name": "Atlas Freight",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "pricing",
+      "packaging"
+    ],
+    "summary": "Prospect was confused about which plan includes advanced workflow controls and approval logic.",
+    "sentiment": "negative",
+    "urgency": 3,
+    "evidence_strength": 3,
+    "quoted_claims": [
+      "I can't tell what I get on Pro versus Business."
+    ],
+    "owner": "AE_05"
+  },
+  {
+    "id": "sig_008",
+    "source_type": "customer_call",
+    "date": "2026-03-03",
+    "team": "sales",
+    "account_name": "BrightPath Clinics",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "onboarding",
+      "templates"
+    ],
+    "summary": "Customer says starter templates would accelerate activation because the current workflow builder feels too blank.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "quoted_claims": [
+      "We need a path to first value in under a day."
+    ],
+    "owner": "AE_03"
+  },
+  {
+    "id": "sig_009",
+    "source_type": "customer_call",
+    "date": "2026-03-04",
+    "team": "sales",
+    "account_name": "Summit Charter",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "analytics",
+      "reporting"
+    ],
+    "summary": "Existing customer requested more granular manager reporting but said current onboarding was still rough for new departments.",
+    "sentiment": "mixed",
+    "urgency": 3,
+    "evidence_strength": 3,
+    "quoted_claims": [
+      "Reporting matters, but getting teams live is still harder than it should be."
+    ],
+    "owner": "AE_01"
+  },
+  {
+    "id": "sig_010",
+    "source_type": "customer_call",
+    "date": "2026-03-04",
+    "team": "sales",
+    "account_name": "Vega Services",
+    "account_segment": "enterprise",
+    "region": "US",
+    "topic_tags": [
+      "trust",
+      "implementation",
+      "integration"
+    ],
+    "summary": "Prospect likes the value proposition but says internal IT approval depends on integration maturity and implementation confidence.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "quoted_claims": [
+      "If implementation feels risky, the deal slows down immediately."
+    ],
+    "metrics": {
+      "deal_size_estimate": 140000
+    },
+    "owner": "AE_02"
+  },
+  {
+    "id": "sig_011",
+    "source_type": "support_ticket",
+    "date": "2026-03-03",
+    "team": "support",
+    "account_name": "Northstar Health",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "permissions",
+      "onboarding"
+    ],
+    "summary": "Admin cannot complete workspace setup because role permissions are unclear in onboarding.",
+    "sentiment": "negative",
+    "urgency": 5,
+    "evidence_strength": 5,
+    "quoted_claims": [
+      "We do not know which permission set to choose."
+    ],
+    "owner": "CSM_01"
+  },
+  {
+    "id": "sig_012",
+    "source_type": "support_ticket",
+    "date": "2026-03-03",
+    "team": "support",
+    "account_name": "NovaGrid",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "integration",
+      "salesforce"
+    ],
+    "summary": "Customer cannot map workflow fields correctly to Salesforce objects during setup.",
+    "sentiment": "negative",
+    "urgency": 5,
+    "evidence_strength": 5,
+    "quoted_claims": [
+      "Field mapping fails during sync."
+    ],
+    "owner": "CSM_02"
+  },
+  {
+    "id": "sig_013",
+    "source_type": "support_ticket",
+    "date": "2026-03-03",
+    "team": "support",
+    "account_name": "Blue Current",
+    "account_segment": "mid-market",
+    "region": "EU",
+    "topic_tags": [
+      "configuration",
+      "onboarding"
+    ],
+    "summary": "Customer is confused by workflow configuration steps and asks for implementation help.",
+    "sentiment": "negative",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "CSM_03"
+  },
+  {
+    "id": "sig_014",
+    "source_type": "support_ticket",
+    "date": "2026-03-03",
+    "team": "support",
+    "account_name": "Meridian Retail",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "analytics",
+      "reporting"
+    ],
+    "summary": "Customer asks whether dashboard analytics can be segmented by manager and region.",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "evidence_strength": 3,
+    "owner": "CSM_01"
+  },
+  {
+    "id": "sig_015",
+    "source_type": "support_ticket",
+    "date": "2026-03-04",
+    "team": "support",
+    "account_name": "Aperture Ops",
+    "account_segment": "enterprise",
+    "region": "US",
+    "topic_tags": [
+      "security",
+      "sso"
+    ],
+    "summary": "Prospect requests documentation on SSO, audit logs, and data retention before moving forward.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "CSM_04"
+  },
+  {
+    "id": "sig_016",
+    "source_type": "support_ticket",
+    "date": "2026-03-04",
+    "team": "support",
+    "account_name": "Cedar Lane Logistics",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "integration",
+      "api"
+    ],
+    "summary": "Implementation owner asks for clearer API mapping examples because current docs do not match their CRM fields.",
+    "sentiment": "negative",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "CSM_05"
+  },
+  {
+    "id": "sig_017",
+    "source_type": "support_ticket",
+    "date": "2026-03-04",
+    "team": "support",
+    "account_name": "BrightPath Clinics",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "templates",
+      "onboarding"
+    ],
+    "summary": "Customer asks for starter templates because initial workflow setup is too open-ended.",
+    "sentiment": "negative",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "CSM_03"
+  },
+  {
+    "id": "sig_018",
+    "source_type": "support_ticket",
+    "date": "2026-03-04",
+    "team": "support",
+    "account_name": "Summit Charter",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "permissions",
+      "admin_controls"
+    ],
+    "summary": "New admin cannot determine which users should have editing rights during deployment.",
+    "sentiment": "negative",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "CSM_01"
+  },
+  {
+    "id": "sig_019",
+    "source_type": "support_ticket",
+    "date": "2026-03-05",
+    "team": "support",
+    "account_name": "Polaris Manufacturing",
+    "account_segment": "enterprise",
+    "region": "US",
+    "topic_tags": [
+      "security",
+      "audit_logs"
+    ],
+    "summary": "Prospect requested a sample audit-log export and admin-event trail before advancing the pilot.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "CSM_04"
+  },
+  {
+    "id": "sig_020",
+    "source_type": "support_ticket",
+    "date": "2026-03-05",
+    "team": "support",
+    "account_name": "Atlas Freight",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "pricing",
+      "packaging"
+    ],
+    "summary": "Customer success notes that packaging confusion is creating repeated clarification requests during onboarding.",
+    "sentiment": "negative",
+    "urgency": 3,
+    "evidence_strength": 3,
+    "owner": "CSM_05"
+  },
+  {
+    "id": "sig_021",
+    "source_type": "support_ticket",
+    "date": "2026-03-05",
+    "team": "support",
+    "account_name": "NovaGrid",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "integration",
+      "salesforce",
+      "blocking_issue"
+    ],
+    "summary": "Customer says deployment is stalled because Salesforce sync still fails for nested workflow fields.",
+    "sentiment": "negative",
+    "urgency": 5,
+    "evidence_strength": 5,
+    "quoted_claims": [
+      "We cannot go live until sync is fixed."
+    ],
+    "owner": "CSM_02"
+  },
+  {
+    "id": "sig_022",
+    "source_type": "support_ticket",
+    "date": "2026-03-05",
+    "team": "support",
+    "account_name": "Meridian Retail",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "analytics",
+      "dashboard"
+    ],
+    "summary": "Customer asks for dashboard filters by manager cohort and month-over-month trend view.",
+    "sentiment": "neutral",
+    "urgency": 2,
+    "evidence_strength": 2,
+    "owner": "CSM_01"
+  },
+  {
+    "id": "sig_023",
+    "source_type": "product_feedback",
+    "date": "2026-03-04",
+    "team": "product",
+    "account_name": "Meridian Retail",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "analytics",
+      "dashboard"
+    ],
+    "summary": "Power user requests custom dashboard slices by team lead and time period.",
+    "sentiment": "positive",
+    "urgency": 2,
+    "evidence_strength": 2,
+    "owner": "PM_01"
+  },
+  {
+    "id": "sig_024",
+    "source_type": "product_feedback",
+    "date": "2026-03-04",
+    "team": "product",
+    "account_name": "NovaGrid",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "integration",
+      "api"
+    ],
+    "summary": "Customer asks for easier Salesforce setup and clearer API mapping examples.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "PM_02"
+  },
+  {
+    "id": "sig_025",
+    "source_type": "product_feedback",
+    "date": "2026-03-04",
+    "team": "product",
+    "account_name": "Blue Current",
+    "account_segment": "mid-market",
+    "region": "EU",
+    "topic_tags": [
+      "configuration",
+      "templates"
+    ],
+    "summary": "Customer asks for starter templates because workflow configuration feels too open-ended.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "PM_03"
+  },
+  {
+    "id": "sig_026",
+    "source_type": "product_feedback",
+    "date": "2026-03-04",
+    "team": "product",
+    "account_name": "Aperture Ops",
+    "account_segment": "enterprise",
+    "region": "US",
+    "topic_tags": [
+      "security",
+      "admin_controls"
+    ],
+    "summary": "Buyer requests clearer admin controls and security documentation in the product walkthrough.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "PM_04"
+  },
+  {
+    "id": "sig_027",
+    "source_type": "product_feedback",
+    "date": "2026-03-05",
+    "team": "product",
+    "account_name": "BrightPath Clinics",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "onboarding",
+      "templates",
+      "time_to_value"
+    ],
+    "summary": "Customer suggests guided templates to reduce time-to-value for first-time admins.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "PM_03"
+  },
+  {
+    "id": "sig_028",
+    "source_type": "product_feedback",
+    "date": "2026-03-05",
+    "team": "product",
+    "account_name": "Summit Charter",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "analytics",
+      "reporting"
+    ],
+    "summary": "Operations manager would like trend reporting by department after deployment stabilizes.",
+    "sentiment": "positive",
+    "urgency": 2,
+    "evidence_strength": 2,
+    "owner": "PM_01"
+  },
+  {
+    "id": "sig_029",
+    "source_type": "product_feedback",
+    "date": "2026-03-05",
+    "team": "product",
+    "account_name": "Vega Services",
+    "account_segment": "enterprise",
+    "region": "US",
+    "topic_tags": [
+      "integration",
+      "implementation"
+    ],
+    "summary": "Enterprise prospect needs clearer implementation guidance and readiness checklist before technical sign-off.",
+    "sentiment": "mixed",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "PM_02"
+  },
+  {
+    "id": "sig_030",
+    "source_type": "product_feedback",
+    "date": "2026-03-05",
+    "team": "product",
+    "account_name": "Atlas Freight",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "pricing",
+      "packaging"
+    ],
+    "summary": "Buyer asks for packaging examples tied to actual workflow complexity because current plans are hard to compare.",
+    "sentiment": "negative",
+    "urgency": 3,
+    "evidence_strength": 3,
+    "owner": "PM_05"
+  },
+  {
+    "id": "sig_031",
+    "source_type": "sales_note",
+    "date": "2026-03-05",
+    "team": "sales",
+    "account_name": "Aperture Ops",
+    "account_segment": "enterprise",
+    "region": "US",
+    "topic_tags": [
+      "security",
+      "trust",
+      "procurement"
+    ],
+    "summary": "Rep says enterprise deals need a tighter trust story, especially around model access and controls.",
+    "sentiment": "neutral",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "AE_02"
+  },
+  {
+    "id": "sig_032",
+    "source_type": "sales_note",
+    "date": "2026-03-05",
+    "team": "sales",
+    "account_name": "General",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "messaging",
+      "ease_of_use"
+    ],
+    "summary": "Sales messaging continues to emphasize fast deployment and ease of setup as the main differentiator.",
+    "sentiment": "positive",
+    "urgency": 3,
+    "evidence_strength": 3,
+    "owner": "AE_MGR"
+  },
+  {
+    "id": "sig_033",
+    "source_type": "sales_note",
+    "date": "2026-03-05",
+    "team": "sales",
+    "account_name": "General",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "pricing",
+      "packaging"
+    ],
+    "summary": "Multiple prospects seemed confused about which plan includes advanced workflow controls.",
+    "sentiment": "negative",
+    "urgency": 3,
+    "evidence_strength": 3,
+    "owner": "AE_MGR"
+  },
+  {
+    "id": "sig_034",
+    "source_type": "sales_note",
+    "date": "2026-03-05",
+    "team": "sales",
+    "account_name": "General",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "analytics",
+      "positioning"
+    ],
+    "summary": "Reps are leaning on analytics as a differentiator because it demos well, even when implementation objections arise first.",
+    "sentiment": "neutral",
+    "urgency": 3,
+    "evidence_strength": 3,
+    "owner": "AE_MGR"
+  },
+  {
+    "id": "sig_035",
+    "source_type": "sales_note",
+    "date": "2026-03-05",
+    "team": "sales",
+    "account_name": "General",
+    "account_segment": "mid-market",
+    "region": "US",
+    "topic_tags": [
+      "integration",
+      "blocking_issue"
+    ],
+    "summary": "Reps report that integration objections are becoming the main source of deal slippage in mid-market opportunities.",
+    "sentiment": "negative",
+    "urgency": 5,
+    "evidence_strength": 4,
+    "owner": "AE_MGR"
+  },
+  {
+    "id": "sig_036",
+    "source_type": "internal_note",
+    "date": "2026-03-05",
+    "team": "leadership",
+    "account_name": "Internal",
+    "account_segment": "all",
+    "region": "global",
+    "topic_tags": [
+      "roadmap",
+      "analytics"
+    ],
+    "summary": "Leadership review notes propose doubling down on analytics in Q2 as the core strategic differentiator.",
+    "sentiment": "neutral",
+    "urgency": 3,
+    "evidence_strength": 3,
+    "owner": "CEO"
+  },
+  {
+    "id": "sig_037",
+    "source_type": "internal_note",
+    "date": "2026-03-05",
+    "team": "product",
+    "account_name": "Internal",
+    "account_segment": "all",
+    "region": "global",
+    "topic_tags": [
+      "roadmap",
+      "onboarding"
+    ],
+    "summary": "Onboarding fixes are tentatively pushed to later in the quarter due to limited engineering capacity.",
+    "sentiment": "neutral",
+    "urgency": 4,
+    "evidence_strength": 4,
+    "owner": "CPO"
+  },
+  {
+    "id": "sig_038",
+    "source_type": "internal_note",
+    "date": "2026-03-05",
+    "team": "leadership",
+    "account_name": "Internal",
+    "account_segment": "all",
+    "region": "global",
+    "topic_tags": [
+      "assumption",
+      "integration"
+    ],
+    "summary": "Leadership assumes current integration issues are edge-case implementation problems rather than core blockers.",
+    "sentiment": "neutral",
+    "urgency": 3,
+    "evidence_strength": 2,
+    "owner": "CEO"
+  }
+]
