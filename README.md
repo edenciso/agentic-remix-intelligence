@@ -97,9 +97,9 @@ remix_agents_starter_repo/
 
 ## Notes on architecture
 
-This repo uses a **Python-controlled sequential pipeline** with specialist Agents SDK agents at each stage. That keeps the workflow deterministic enough for a one-week prototype while still exercising agent specialization and model-based reasoning.
+This repo uses a **Python-controlled sequential pipeline** with specialist OpenAI Agents SDK agents at each stage. That keeps the workflow deterministic enough for a one-week prototype while still exercising agent specialization and model-based reasoning.
 
-OpenAI’s agents materials describe both centralized “agent-as-tool” and orchestrated multi-agent workflows as valid patterns, and the SDK supports tools, traces, and multi-step runs. citeturn3view0turn0search0turn2search4
+OpenAI’s agents materials describe both centralized “agent-as-tool” and orchestrated multi-agent workflows as valid patterns, and the SDK supports tools, traces, and multi-step runs.
 
 ## Suggested next experiments
 
