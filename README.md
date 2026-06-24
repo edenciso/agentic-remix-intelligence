@@ -1,6 +1,6 @@
-# Remix Intelligence Studio — Agents SDK starter repo
+# Agentic Remix Intelligence Studio
 
-This is a runnable starter prototype for **Remix Intelligence Studio**, a minimum AI-native multi-agent system that turns a week of cross-functional company signals into a concise **Weekly Decision Mix** for leadership.
+This is a runnable starter prototype for an **Agentic Remix Intelligence Studio**, an AI-native multi-agent system that turns a week of cross-functional company signals into a concise **Weekly Executive Memo** to support strategic leadership decisions.
 
 It uses:
 - the **OpenAI Agents SDK** for orchestration
