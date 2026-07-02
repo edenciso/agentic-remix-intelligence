@@ -1,6 +1,6 @@
-# Agentic Remix Intelligence Studio
+# Agentic Remix Intelligence Chief-of-Staff Studio
 
-This is a runnable starter prototype for an **Agentic Remix Intelligence Studio**, an AI-native multi-agent system that turns a week of cross-functional company signals into a concise **Weekly Executive Memo** to support strategic leadership decisions.
+This is a runnable starter prototype for an **Agentic Remix Intelligence Studio**, an AI-native multi-agent system that turns a week of cross-functional company signals into a concise **Weekly Executive Memo** to support the Chief-of-Staff during strategic leadership decisions.
 
 It uses:
 - the **OpenAI Agents SDK** for orchestration
